@@ -1,0 +1,42 @@
+Metadata-Version: 1.0
+Name: lyntin
+Version: 4.2
+Summary: Lyntin mud client
+Home-page: http://lyntin.sourceforge.net/
+Author: Will Guaraldi
+Author-email: willhelm@users.sourceforge.net
+License: GPLv3
+Description: 
+        Lyntin
+        ======
+        
+        Summary
+        -------
+        
+        Lyntin is a mud client written in Python that sports multiple
+        user interfaces (tk, text, curses) and runs on multiple platforms
+        (Windows, Linux, Mac OSX, ...).  It has a module system that allows
+        users to write new Lyntin commands, modify default Lyntin behavior,
+        and extend the client to suit their individual needs.
+        
+        Download and installation
+        -------------------------
+        
+        To download and install PyBlosxom you can go to::
+        
+        http://lyntin.sourceforge.net/
+        
+        to download the .tar.gz file, or you can use easy_install::
+        
+        easy_install Lyntin
+        
+        
+Keywords: mud client
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: GNU General Public License 3.0 (GPL)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Games/Entertainment :: Multi-User Dungeons (MUD)
