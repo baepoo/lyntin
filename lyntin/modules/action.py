@@ -615,7 +615,7 @@ def unload():
   """ Unloads the module by calling any unload/unbind functions."""
   global am, var_module
   modutils.unload_commands(commands_dict.keys())
-  exported.remove_manager("alias")
+  exported.remove_manager("action")
 
   exported.hook_unregister("mud_filter_hook", am.mudfilter)
   exported.hook_unregister("write_hook", am.persist)
